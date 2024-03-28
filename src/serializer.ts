@@ -207,6 +207,7 @@ export class DocxSerializerState {
   }
 
   text(text: string | null | undefined, opts?: IRunOptions) {
+    console.log('text', text);
     if (!text) return;
     this.current.push(new TextRun({ text, ...this.nextRunOpts, ...opts }));
     delete this.nextRunOpts;
