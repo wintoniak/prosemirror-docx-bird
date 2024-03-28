@@ -1,8 +1,8 @@
 {
-  "name": "prosemirror-docx",
-  "version": "0.1.1",
+  "name": "prosemirror-docx-bird",
+  "version": "0.1.2",
   "description": "Export from a prosemirror document to Microsoft word",
-  "author": "Rowan Cockett <rowan@curvenote.com>",
+  "author": "Rowan Cockett <rowan@curvenote.com>, forked by Constantin Wintoniak <wintoniak@fynk.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/curvenote/prosemirror-docx.git"
+    "url": "git+https://github.com/wintoniak/prosemirror-docx-bird.git"
   },
   "bugs": {
-    "url": "https://github.com/curvenote/prosemirror-docx/issues"
+    "url": "https://github.com/wintoniak/prosemirror-docx-bird/issues"
   },
-  "homepage": "https://github.com/curvenote/prosemirror-docx",
+  "homepage": "https://github.com/wintoniak/prosemirror-docx-bird",
   "scripts": {
     "clean": "rimraf dist",
     "build:cjs": "tsc --project ./src/tsconfig.json",
